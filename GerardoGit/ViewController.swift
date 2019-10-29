@@ -25,9 +25,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
     @IBAction func buttonTapped(_ sender: UIButton) {
+        imageView.image = UIImage(named: "simonART")
+        testLabelOne.text = "this is art"
+        testLabelTwo.text = "maybe"
+        testLabelThree.text = "maybe not"
+        testLabelFour.text = "okey its not but dont judge me"
     }
 }
 
